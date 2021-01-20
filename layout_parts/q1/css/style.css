@@ -2,4 +2,36 @@
 
 /* 回答はここに書いてね */
 
+.clearfix:after {
+  display: block;
+  content: "";
+  clear: both;
+}
+.q1-container-box {
+  width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #eff3f4;
+  box-sizing: border-box;
+}
+
+.q1-container-item {
+  width: 230px;
+  margin-left: 20px;
+  padding: 20px;
+  background-color: #3274ae;
+  float: left;
+}
+
+.q1-container-text {
+  font-size: 16px;
+  line-height: 16px;
+  padding: 20px;
+  background-color: #eaf4ff;
+  border: 10px solid #022336;
+}
+
+.q1-container-item:first-child {
+  margin-left: 0;
+}
 /* 回答はここに書いてね */

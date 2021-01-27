@@ -9,12 +9,10 @@
 
 .q4-container {
   display: table;
-  table-layout: fixed;
   width: 100%;
   text-align: center;
   padding: 20px ;
   box-sizing: border-box;
-  object-fit: cover;
 }
 
 .q4-container:first-child {

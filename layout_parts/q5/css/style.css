@@ -12,20 +12,6 @@
   position: relative;
 }
 
-.q5-box-top-nine {
-  position: fixed;
-  top: 10px;
-  left: 10px;
-  width: 100px;
-  height: 100px;
-  text-align: center;
-  background-color: #2b69a3;
-  font-size: 30px;
-  font-weight: bold;
-  z-index: 10;
-  line-height: 100px;
-}
-
 .q5-box {
   width: 100px;
   height: 100px;
@@ -101,6 +87,14 @@
   right: 0;
   z-index: 9;
   content: "";
+}
+
+.nine {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  background-color: #2b69a3;
+  z-index: 10;
 }
 
 /* 回答はここに書いてね */

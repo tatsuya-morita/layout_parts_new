@@ -23,6 +23,7 @@
   font-size: 30px;
   font-weight: bold;
   z-index: 10;
+  line-height: 100px;
 }
 
 .q5-box {
@@ -32,7 +33,7 @@
   font-size: 30px;
   font-weight: bold;
   text-align: center;
-  
+  line-height: 100px;
 }
 
 .one {

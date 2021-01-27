@@ -1,5 +1,36 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6__leftbox {
+  text-align: center;
+  background-color: #e6f2ff;
+  width: 90px;
+  display: inline-block;
+}
 
+.q6__rightbox {
+  display: inline-block;
+}
+
+.q6__table {
+  display: table;
+  background-color: #fff;
+  vertical-align: middle;
+  text-align: center;
+}
+
+.text__table {
+  display: inline-block;
+  display: table-cell;
+  padding: 10px;
+  vertical-align: middle;
+}
+
+.text__flex {
+  display: inline-block;
+  background-color: #fff;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
 /* 回答はここに書いてね */

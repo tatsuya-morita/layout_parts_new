@@ -7,18 +7,18 @@
   table-layout: fixed;
 }
 
-table tr:nth-child(2n-1) {
+.q3-container tr:nth-child(2n) {
   background-color: #ecf1f2;
 }
 
-table td {
+.q3-container td {
   font-size: 16px;
   line-height: 22px;
   border: solid #dedede 1px ;
   padding: 10px;
 }
 
-table th {
+.q3-container th {
   font-size: 18px;
   line-height: 26px;
   padding: 10px;
@@ -27,7 +27,7 @@ table th {
   border: solid #dedede 1px;
 }
 
-table.q3-container tr:last-child {
+.q3-container tbody tr:last-child {
   border-top: dashed #000 2px;
 }
 

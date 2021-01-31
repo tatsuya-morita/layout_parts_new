@@ -80,8 +80,6 @@
 .q7-5-marginbox-right {
   display: inline-block;
   width: 100%;
-  padding-left: 350px;
-  margin-left: -300px;
   box-sizing: border-box;
   font-size: 16px;
   letter-spacing: normal;

@@ -61,29 +61,30 @@
   box-sizing: border-box;
 }
 
-.q7-5-container {
+.q7-maincontainer {
   font-size: 0;
-  width: 100%;
-  letter-spacing: -1em;
-  white-space: nowrap;
 }
 
-.q7-5-marginbox-left {
+.q7-5-container-left {
   display: inline-block;
   width: 300px;
-  box-sizing: border-box;
-  font-size: 16px;
-  letter-spacing: normal;
-  white-space: normal;
+  vertical-align: top;
 }
 
-.q7-5-marginbox-right {
+.q7-5-text-left {
+  font-size: 16px;
+}
+
+.q7-5-container-right {
   display: inline-block;
   width: 100%;
+  margin-left: -300px;
+  padding-left: 350px;
   box-sizing: border-box;
+}
+
+.q7-5-text-right {
   font-size: 16px;
-  letter-spacing: normal;
-  white-space: normal;
 }
 
 /* 回答はここに書いてね */
